@@ -126,7 +126,7 @@
   position:absolute;
   left:70px;
   top:78px;
-  width:120px;
+  width:137px;
   height:26px;
   font-size:16px;
   color:#FFFFFF;
@@ -135,14 +135,14 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:120px;
+  width:137px;
   height:26px;
 }
 #u11 {
   position:absolute;
   left:0px;
   top:0px;
-  width:120px;
+  width:137px;
   white-space:nowrap;
 }
 #u12 {
@@ -1800,10 +1800,10 @@
   top:84px;
   width:420px;
   height:32px;
-  font-family:'Cooper Std Black', 'Cooper Std';
-  font-weight:900;
+  font-family:'Arial Negreta', 'Arial';
+  font-weight:700;
   font-style:normal;
-  font-size:16px;
+  font-size:14px;
   color:#3399CC;
   text-align:left;
 }
@@ -1817,7 +1817,7 @@
 #u162 {
   position:absolute;
   left:2px;
-  top:6px;
+  top:8px;
   width:416px;
   word-wrap:break-word;
 }
