@@ -13,13 +13,22 @@ var IOS = false;
 var IE = false;
 var BROWSER_VERSION = 5000;
 (function () {
-    var chromeRegex = /Chrome\/([0-9]+).([0-9]+)/g ;
-    var chromeMatch = chromeRegex.exec(window.navigator.userAgent);
-    CHROME = Boolean(chromeMatch);
-    CHROME_5_LOCAL = chromeMatch &&
-                Number(chromeMatch[1]) >= 5 &&
-                location.href.indexOf('file://') >= 0;
+    if(!window.$axure) window.$axure = function() {};
+    var useragent = window.navigator.userAgent;
 
+    var edgeRegex = /Edge\/([0-9]+)/g ;
+    var edgeMatch = edgeRegex.exec(useragent);
+    $axure.browser = {isEdge : Boolean(edgeMatch)};
+
+    if(!$axure.browser.isEdge) {
+      var chromeRegex = /Chrome\/([0-9]+).([0-9]+)/g ;
+      var chromeMatch = chromeRegex.exec(useragent);
+      CHROME = Boolean(chromeMatch);
+      CHROME_5_LOCAL = chromeMatch &&
+                  Number(chromeMatch[1]) >= 5 &&
+                  location.href.indexOf('file://') >= 0;
+    }
+  
     var safariRegex = /Safari\/([0-9]+)/g;
     var safariMatch = safariRegex.exec(window.navigator.userAgent);
     SAFARI = Boolean(safariMatch) && !CHROME; //because chrome also inserts safari string into user agent
@@ -37,7 +46,6 @@ var BROWSER_VERSION = 5000;
         BROWSER_VERSION = $.browser.version;
     }
 
-    if (!window.$axure) window.$axure = function() {};
     //Used by sitemap and variables.js getLinkUrl functions so that they know
     //whether to embed global variables in URL as query string or hash string
     //_shouldSendVars persists the value for sitemap instead of re-checking every time

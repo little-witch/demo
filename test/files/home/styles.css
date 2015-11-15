@@ -70,7 +70,7 @@
   top:0px;
   width:140px;
   height:30px;
-  font-family:'Arial Normal', 'Arial';
+  font-family:'ArialMT', 'Arial';
   font-weight:400;
   font-style:normal;
   font-size:13px;
@@ -93,7 +93,7 @@
   top:0px;
   width:140px;
   height:31px;
-  font-family:'Arial Normal', 'Arial';
+  font-family:'ArialMT', 'Arial';
   font-weight:400;
   font-style:normal;
   font-size:13px;
@@ -109,7 +109,7 @@
   top:280px;
   width:82px;
   height:20px;
-  font-family:'Heiti SC Light', 'Heiti SC';
+  font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';
   font-weight:200;
   font-style:normal;
   font-size:16px;
@@ -136,7 +136,7 @@
   top:332px;
   width:90px;
   height:28px;
-  font-family:'Heiti SC Light', 'Heiti SC';
+  font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';
   font-weight:200;
   font-style:normal;
   font-size:16px;
@@ -162,7 +162,7 @@
   top:390px;
   width:200px;
   height:50px;
-  font-family:'Heiti SC Light', 'Heiti SC';
+  font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';
   font-weight:200;
   font-style:normal;
   font-size:18px;
@@ -178,7 +178,7 @@
 #u11 {
   position:absolute;
   left:2px;
-  top:14px;
+  top:16px;
   width:196px;
   word-wrap:break-word;
 }
