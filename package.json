@@ -4,10 +4,10 @@
   "description": "",
   "main": "test.js",
   "directories": {
-    "test": "test"
+    "test": "test1"
   },
   "scripts": {
-    "test": "test.js"
+    "test2": "test.js"
   },
   "repository": {
     "type": "git",
