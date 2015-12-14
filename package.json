@@ -2,12 +2,12 @@
   "name": "demo",
   "version": "1.0.0",
   "description": "",
-  "main": "test.js",
+  "main": "index.js",
   "directories": {
-    "test": "test1"
+    "test": "test"
   },
   "scripts": {
-    "test2": "test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
