@@ -2,12 +2,12 @@
   "name": "demo",
   "version": "1.0.0",
   "description": "",
-  "main": "./test.js",
+  "main": "test.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "./test.js"
+    "test": "test.js"
   },
   "repository": {
     "type": "git",
